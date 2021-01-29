@@ -1,9 +1,11 @@
 import Head from 'next/head'
+import Button from '@hashicorp/react-button'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div className={styles.container}>
+      <Button />
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
