@@ -1,11 +1,21 @@
 import Head from 'next/head'
-import Button from '@hashicorp/react-button'
+// import Tabs from '@hashicorp/react-tabs'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Button />
+      {/* <Tabs
+        theme='boundary'
+        fullWidthBorder={true}
+        centered={true}
+        defaultTabIdx={1}
+        items={[
+          { heading: 'First Tab', tabChildren: () => <p>First tab content</p> },
+          { heading: 'Second Tab', tabChildren: () => <p>Second tab content</p> },
+          { heading: 'Third tab', tabChildren: () => <p>Third tab content</p> }
+        ]}
+      /> */}
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />

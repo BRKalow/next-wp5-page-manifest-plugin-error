@@ -8,7 +8,7 @@
     "start": "next start"
   },
   "dependencies": {
-    "@hashicorp/react-button": "^4.0.1",
+    "@hashicorp/react-tabs": "^2.0.1",
     "next": "^10.0.6-canary.12",
     "next-transpile-modules": "^6.1.0",
     "react": "17.0.1",
